@@ -1,0 +1,83 @@
+/* Profile Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+.profile {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.profile h1, .profile h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.reputation {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.rating-stars {
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.post-history, .claimed-items, .reviews {
+    margin-top: 1.5rem;
+}
+
+.post-history ul, .claimed-items ul, .reviews ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-history .post, .claimed-items li, .reviews li {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.post-history .post button {
+    padding: 0.4rem 0.7rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-history .post button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <!-- Header Section (Use consistent header CSS from home page) -->
+    <header class="header">
+        <div class="logo">FoodShare</div>
+        <nav class="nav">
+            <a href="homepagefood.html">Home</a>
+            <a href="aboutus.html">About</a>
+            <a href="postfood.html">Post Food</a>
+            <a href="requestfood.html">Request Food</a>
+            <a href="guidelines.html">Guidelines</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <!-- User Profile Section -->
+    <section class="profile">
+        <h1>User Profile</h1>
+        
+        <!-- Reputation Section -->
+        <div class="reputation">
+            <h2>Reputation Score</h2>
+            <p>Your current rating: <span id="userRating">4.5</span> / 5.0</p>
+            <div class="rating-stars">
+                ★★★★☆
+            </div>
+        </div>
+
+        <!-- Posts History Section -->
+        <div class="post-history">
+            <h2>Your Posts</h2>
+            <ul>
+                <li>
+                    <div class="post">
+                        <p><strong>Food Type:</strong> Rice</p>
+                        <p><strong>Quantity:</strong> 10kg</p>
+                        <p><strong>Status:</strong> Available</p>
+                        <button onclick="markAsTaken(this)">Mark as Taken</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="post">
+                        <p><strong>Food Type:</strong> Sambar</p>
+                        <p><strong>Quantity:</strong> 5L</p>
+                        <p><strong>Status:</strong> Taken</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Claimed Items Section -->
+        <div class="claimed-items">
+            <h2>Claimed Items</h2>
+            <ul>
+                <li>
+                    <p><strong>Food Type:</strong> Bread Loaf</p>
+                    <p><strong>Quantity:</strong> 2 packs</p>
+                    <p><strong>Status:</strong> Received</p>
+                </li>
+                <li>
+                    <p><strong>Food Type:</strong> Fresh Vegetables</p>
+                    <p><strong>Quantity:</strong> 3kg</p>
+                    <p><strong>Status:</strong> In Transit</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Reviews Section -->
+        <div class="reviews">
+            <h2>Reviews</h2>
+            <ul>
+                <li>
+                    <p><strong>User:</strong> Alice</p>
+                    <p>Great quality food! Thanks for sharing.</p>
+                    <div class="rating-stars">
+                        ★★★★★
+                    </div>
+                </li>
+                <li>
+                    <p><strong>User:</strong> Bob</p>
+                    <p>Very kind and helpful!</p>
+                    <div class="rating-stars">
+                        ★★★★☆
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer (Use consistent footer CSS from home page) -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="guidelines.html">Guidelines</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2024 FoodShare. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

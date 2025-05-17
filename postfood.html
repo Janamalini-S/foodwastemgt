@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Food - Food Waste Management</title>
+    <link rel="stylesheet" href="postfood.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">FoodShare</div>
+        <nav class="nav">
+            <a href="homepagefood.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="postfood.html">Post Food</a>
+            <a href="requestfood.html">Request Food</a>
+            <a href="guidelines.html">Guidelines</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <!-- Post Food Form Section -->
+    <section class="post-food">
+        <h1>Post Available Food</h1>
+        <form action="#" method="POST" enctype="multipart/form-data" class="food-form">
+            <label for="foodType">Food Type:</label>
+            <input type="text" id="foodType" name="foodType" placeholder="e.g., Rice, Sambar" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="text" id="quantity" name="quantity" placeholder="e.g., 10kg" required>
+
+            <label for="price">Price (or Free):</label>
+            <input type="text" id="price" name="price" placeholder="e.g., Free or $5" required>
+
+            <label for="location">Location (optional):</label>
+            <input type="text" id="location" name="location" placeholder="Enter location for pickup">
+
+            <label for="expiryDate">Expiry Time:</label>
+            <input type="time" id="expiryDate" name="expiryDate" required>
+
+            <label for="imageUpload">Upload Image:</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+
+            <button type="submit" class="submit-btn">Post Food</button>
+        </form>
+
+        <button class="availability-btn">Mark as Taken</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="guidelines.html">Guidelines</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2024 FoodShare. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
